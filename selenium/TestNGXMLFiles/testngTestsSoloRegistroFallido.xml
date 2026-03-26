@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite de test de registros fallidos">
+  <test thread-count="5" name="Test Registros fallidos">
+    <classes>
+      <class name="clase3.proyInt2.Laboratorio3">
+		  <methods>
+			  <include name="registroFallidoPassword"></include>
+  			  <include name="registroFallidoApellidoPassword"></include>
+		  </methods>
+	  </class>
+		
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite de test de Test de login no satisfactorio">
+  <test thread-count="5" name="Blocked User login test">
+    <classes>
+      <class name="com.automation.selenium.clase4.PageObjectModel.test.LoginTests">
+		  <methods>
+			  <include name="blockedUserTest"></include>
+		  </methods>
+	  </class>
+		
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

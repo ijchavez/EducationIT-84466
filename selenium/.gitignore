@@ -1,0 +1,44 @@
+# Maven / Java build output
+/target/
+dependency-reduced-pom.xml
+release.properties
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+buildNumber.properties
+.mvn/timing.properties
+
+# Test reports and transient artifacts
+/test-output/
+/allure-results/
+/allure-report/
+/surefire-reports/
+/failsafe-reports/
+/reports/
+/screenshots/
+/downloads/
+/logs/
+*.log
+
+# Selenium Manager / WebDriver cache
+/.selenium-cache/
+
+# Generated evidence files at module root
+/*test_image.png
+/Documento_de_evidencias*.docx
+
+# IDE metadata
+/.classpath
+/.project
+/.settings/
+/.idea/
+/.vscode/
+*.iml
+
+# OS files and JVM crash dumps
+.DS_Store
+Thumbs.db
+ehthumbs.db
+hs_err_pid*
+replay_pid*

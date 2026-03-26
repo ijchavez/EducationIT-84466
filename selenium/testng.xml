@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.automation.selenium.clase5.TableManagement5_3"/>
+      <class name="com.automation.selenium.clase5.Alerts"/>
+      <class name="com.automation.selenium.clase5.TableManagement"/>
+      <class name="com.automation.selenium.clase5.UploadFilesGuru99"/>
+      <class name="com.automation.selenium.clase5.UploadFiles"/>
+      <class name="com.automation.selenium.clase5.Alerts5_3"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
